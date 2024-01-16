@@ -1,17 +1,22 @@
 
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rethink Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 /*Navbar css */
 
 #navbar {
-    background-color:  #161617cc;
+    background-color:  rgba(22, 22, 23, .8);
     text-align: center;
     height: 40px;
+    width: 100vw;
     padding-top: 15px;
     padding-bottom: 5px;
+    position: fixed;
+    backdrop-filter: blur(7);
 }
 
 #navbar a{
@@ -22,10 +27,19 @@
     margin: 18px;
 }
 
+
+/*ad style */
+.ad {
+    height: 40px;
+    background-color:rgb(22, 22, 23) ;
+    color: white;
+    text-align: center;
+}
+
 /*iphone image css*/
 
 .iphone {
-    margin: 0;
+    margin: 0%;
     background-image: url(Images/iphone15.png);
     background-repeat: no-repeat;
     width: 100vw;
@@ -55,7 +69,7 @@
 }
 
 .iphone-header-anchor a{
-    color: rgb(33, 98, 237);
+    color: #2997ff;
     font-size: 25px;
     text-decoration: none;
     margin: 10px;
@@ -97,4 +111,218 @@
     font-size: 25px;
     text-decoration: none;
     margin: 10px;
+}
+
+
+/*watch style */
+.airpod-watch {
+    display: flex;
+    background-image: url(Images/airpod_watch.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.watch-header {
+    padding-left: 215px;
+    padding-top: 100px;
+}
+
+.watch-header-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.watch-header a {
+    padding-top: 10px;
+}
+
+.watch-header h1 {
+    margin: 0%;
+    padding-left: 10px;
+}
+
+.watch-header h5 {
+    color: orange;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 100px;
+}
+
+.watch-header p {
+    padding-left : 20px;
+    font-size: 22px;
+}
+
+/*airpod styling */
+.airpod-header {
+    color: white;
+    padding-left: 410px;
+    padding-top: 100px;
+}
+
+.airpod-header h1 {
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+.airpod-header p {
+    padding-right: 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+#airpod-anchor {
+    text-decoration: none;
+    color: #2997ff;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+/*iphone and macbook style */
+/*2nd iphone styling */
+.iphone-mac {
+    background-image: url(Images/mac_iphone.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.iphone2-logo {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.iphone2-logo h1{
+    font-size: 40px;
+}
+
+.iphone2-logo a{
+    padding-top: 15px;
+}
+
+.iphone2 {
+    padding-left: 190px;
+    padding-top: 100px;
+}
+
+.iphone2 p {
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.iphone2 a {
+    font-size: 20px;
+}
+
+.iphone2-cta {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #2997ff;
+}
+
+/*macbook styling */
+.macbook {
+    padding-left: 370px;
+    padding-top: 100px;
+}
+
+.macbook h1 {
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.macbook p {
+    font-size: 20px;
+}
+
+.macbook-cta {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #2997ff;
+}
+
+/*more description*/
+.more-desc {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0,0.04);
+    margin-top: 0;
+}
+.more-desc p{
+    color: rgba(0, 0, 0,0.7);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1000px;
+    font-size: 12px;
+}
+
+.additional-link {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+center {
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0,0.04);
+}
+
+hr {
+    width: 1000px;
+}
+
+
+/*footer styling */
+.footer {
+    display: flex;
+    padding-left: 175px;
+    background-color: rgba(0, 0, 0,0.04);
+}
+
+ul {
+    padding-top: 10px;
+    margin-right: 90px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer li {
+    padding-bottom: 5px;
+}
+
+.footer a {
+    font-size: 13px;
+    color: rgba(0, 0, 0,0.8);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-header {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-para {
+    background-color: rgba(0, 0, 0,0.04);
+    font-size: 14px;
+    padding-left: 175px;
+    color: rgba(0, 0, 0,0.8);;
+}
+
+.footer-para a {
+    color: #2997ff;
 }
